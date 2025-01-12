@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int choice; // Variable to store user choice
-    int num1, num2; // Variables to store numbers
+    int choice; 
+    int num1, num2;
 
     cout << "Choose a mathematical operation:\n";
     cout << "1 for plus\n";
@@ -11,9 +11,9 @@ int main() {
     cout << "3 to multiply\n";
     cout << "4 to divide\n";
 
-    cin >> choice; // Read user's choice
+    cin >> choice; // Read user choice
 
-    if (choice >= 1 && choice <= 4) { // Validate input
+    if (choice >= 1 && choice <= 4) { 
         cout << "Enter first number: ";
         cin >> num1;
 
